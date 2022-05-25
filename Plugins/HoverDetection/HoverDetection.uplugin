@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "HoverDetection",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "Kai",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "HoverDetection",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

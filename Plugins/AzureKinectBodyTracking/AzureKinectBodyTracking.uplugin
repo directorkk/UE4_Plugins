@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "AzureKinectBodyTracking",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "louie_kuo",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "AzureKinectBodyTracking",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"PostBuildSteps": 
+	{
+		"Win64": [
+			"$(PluginDir)\\post_build_steps.bat"
+		]
+	}
+}
